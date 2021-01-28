@@ -1,0 +1,62 @@
+.Help {
+
+}
+
+.Help-main {
+    height: 800px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./logo-transparent-tree.png');
+    background-size: 1350px 1350px;
+    background-position: bottom -320px center;
+    background-repeat: no-repeat;
+}
+
+.Help-banner {
+    max-height: 122px;
+    max-width: 985px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 25px 35px 25px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7B8F38;
+    background-color: #FFFFFF;
+}
+
+.Help-steps {
+    max-height: 500px;
+    max-width: 1420px;
+    padding: 25px 45px 25px 45px;
+    margin-bottom: 55px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #7B8F38;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.Help-steps p {
+    font-size: 18px;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+.Help-steps h4 {
+    font-weight: bold;
+    color: #7A8F3A;
+}
+
+.Help-emergency {
+    height: 75px;
+    width: 790px;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+

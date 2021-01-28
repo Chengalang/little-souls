@@ -1,0 +1,56 @@
+.Home {
+    justify-content: center;
+}
+
+.Home-introduction {
+    max-height: 679px;
+    min-height: 679px;
+    background-image: url('./home-background.png');
+    background-size: 100% auto;
+    background-position: bottom 200px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Main-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Home-mission {
+    height: 323px;
+    background-color: #F8F6F2;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main-mission {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Home-details {
+    height: 500px;
+    background-image: url('./logo-transparent-tree.png');
+    background-size: 1000px 1000px;
+    background-position: bottom -240px right -325px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.Main-details {
+    margin: auto 0 auto 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+}
+
+@media (max-width: 1300px) {
+    .Home {
+        background-size: cover;
+        background-position: bottom center;
+    }
+}

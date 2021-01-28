@@ -1,0 +1,117 @@
+.Story {
+
+}
+
+/* Introduction */
+.Story-introduction {
+    height: 625px;
+    background-image: url('./story-background.png');
+    background-size: 2500px 1502px;
+    background-position: bottom -150px left;
+    background-repeat: no-repeat;
+}
+.introduction-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.introduction-main-header {
+
+}
+.introduction-main-header h1 {
+    padding: 10px 10px 50px 10px;
+    color: #707070;
+    /*background-color: #0CB6F6;*/
+}
+.introduction-main-header h2 {
+    padding: 0px 150px 0px 0px;
+    color: #707070;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Brush Script MT;
+    /*background-color: #C100EB;*/
+}
+.introduction-main-header p {
+    padding: 30px 175px 0px 175px;
+    /*color: #606060;*/
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    /*background-color: #F60C5B;*/
+}
+
+/* Statemenet */
+.Story-statement {
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF8F5;
+}
+.Story-statement-details {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /*background-color: #C100EB;*/
+}
+.Story-statement-details p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+.Story-statement-details img {
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+/* Mission */
+.Story-mission {
+    height: 825px;
+    font-family: Calibri;
+    text-align: center;
+    background-image: url('./logo-transparent-tree.png');
+    background-size: 1500px 1500px;
+    background-position: bottom -355px center;
+    background-repeat: no-repeat;
+}
+.Story-col {
+    display: flex;
+    justify-content: center;
+    /*background-color: #0CB6F6;*/
+}
+.Story-col-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.85;
+    /*background-color: #5B0CF6;*/
+}
+.Story-col-details span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+}
+.Story-col-details p {
+    padding: 0 75px 0 75px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+/* Bottom Banner */
+.Story-banner {
+    height: 270px;
+    margin-bottom: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF8F5;
+    color: #606060;
+}
+.Story-banner h1 {
+    font-style: italic;
+}
