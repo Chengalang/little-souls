@@ -1,11 +1,28 @@
-.Header {
+.header {
     height: 112px;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
+    padding: 10px 0;
+/*    border-style: solid;
     border-width: 3px;
-    border-color: #7B8F38;
+    border-color: #7B8F38;*/
     background-color: #FFFFFF;
+}
+
+.header .container {
+
+}
+
+#basic-navbar-nav {
+    width: 100%;
+    min-width: 200px;
+    max-width: 3000px;
+    z-index: 1100;
+    background-color: #FFFFFF;
+}
+
+.navbar-collapse-buttons {
+    width: 500px;
+    height: 40px;
+    background-color: #660CF2;
 }
 
 .Main-header {
@@ -31,4 +48,36 @@ img {
 
 .Nav-header .nav-link {
     margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+    #basic-navbar-nav {
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+    #basic-navbar-nav .header-bt {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    img {
+        width: 180px;
+        height: 75px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Nav-header {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .btn {
+        margin-left: 5px;
+    }
+    img {
+        margin-right: 20px;
+    }
 }

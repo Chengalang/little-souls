@@ -10,12 +10,17 @@ import Help from './pages/Help/Help.js';
 import About from './pages/About/About.js';
 import Family from './pages/Family/Family.js';
 import Story from './pages/Story/Story.js';
+import Header from './components/Header/Header.js';
+import Footer from './components/Footer/Footer.js';
+import HeaderButtons from './components/Mobile/HeaderButtons.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App()
 {
     return (
         <Router>
+            <Header />
+            <HeaderButtons />
             <Switch>
                 <Route exact path="/">
                     <Home />
@@ -36,6 +41,7 @@ function App()
                     <Story />
                 </Route>
             </Switch>
+            <Footer />
         </Router>
     );
 }

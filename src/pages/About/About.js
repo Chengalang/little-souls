@@ -10,9 +10,6 @@ import lauraRic from './Laura_Ricketts.png';
 import alfredVoz from './Alfred_Vozzella.png';
 import paigeEng from './Paige_Engle.png';
 
-import Header from '../../components/Header/Header.js';
-import Footer from '../../components/Footer/Footer.js';
-
 // Test Col size
 // style={{ backgroundColor: "#F60C5B" }}
 // style={{ backgroundColor: "#4C0CF6" }}
@@ -22,9 +19,9 @@ function About()
     return (
         <div className="About">
             <Container fluid>
-                <Header />
 
-                <h1>Meet the team</h1>
+
+                <h1>Meet the Team</h1>
 
                 <Row>
                     <Col md={12} className="About-team-one-main">
@@ -83,7 +80,6 @@ function About()
                     </div>
                 </Row>
 
-                <Footer />
             </Container>
         </div>
     );

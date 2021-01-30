@@ -1,0 +1,37 @@
+.header-mobile-buttons {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+.header-mobile-buttons .col-6 {
+    padding: 10px 0;
+}
+
+.header-mobile-buttons .col-6 a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-mobile-buttons .col-6 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-mobile-buttons .col-6 a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-mobile-buttons .col-6 a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (min-width: 767px) {
+    .hidden-lg {
+        display: none!important;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-mobile-buttons .col-6 h4 {
+        font-size: 18px;
+    }
+}

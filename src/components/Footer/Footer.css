@@ -1,20 +1,46 @@
-.Footer {
-    height: 272px;
+.footer {
+    width: 100%;
+    min-height: 175px;
+    max-height: 300px;
+    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #B9CEE2;
 }
 
-.Main-footer {
-    height: 80%;
-    width: 97%;
+.footer .container {
+    width: 100%;
+    min-height: 175px;
+    max-height: 300px;
+    top-margin: 10px;
     display: flex;
+    justify-content: center;
+}
+
+.footer-row {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-width: 5px;
     border-color: #FFFFFF;
 }
 
-.social-list {
-    margin-top: 100px;
+.social-col {
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 503px) {
+    .bi-facebook {
+        width: 40px;
+        height: 40px;
+    }
+    .bi-instagram {
+        width: 40px;
+        height: 40px;
+    }
 }

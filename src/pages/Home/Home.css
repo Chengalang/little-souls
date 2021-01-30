@@ -1,56 +1,170 @@
-.Home {
-    justify-content: center;
+.home {
+    font-family: Calibri;
 }
 
-.Home-introduction {
+section {
+    clear: both;
+}
+
+/* First section after header */
+.home-hero {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+.home-bg-image {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+.home-introduction {
+    z-index: 1;
     max-height: 679px;
     min-height: 679px;
-    background-image: url('./home-background.png');
-    background-size: 100% auto;
-    background-position: bottom 200px center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-
-.Main-introduction {
+.home-introduction p {
+    opacity: 0.8;
+}
+.main-introduction {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: 30px;
+    letter-spacing: 1px;
 }
 
-.Home-mission {
-    height: 323px;
+/* Our Mission */
+.home-mission-statement {
     background-color: #F8F6F2;
+}
+.mission-row {
+    min-height: 300px;
     align-items: center;
     justify-content: center;
 }
-
-.Main-mission {
+.mission-col {
     text-align: center;
-    font-size: 20px;
+    justify-content: center;
+}
+.mission-col p {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
-.Home-details {
-    height: 500px;
+/* Who We Serve */
+.home-serve {
     background-image: url('./logo-transparent-tree.png');
     background-size: 1000px 1000px;
     background-position: bottom -240px right -325px;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
-
-.Main-details {
-    margin: auto 0 auto 0;
-    justify-content: center;
+.serve-row {
+    min-height: 450px;
+    align-items: center;
+}
+.serve-col {
+    padding: 15px 10px;
     text-align: center;
-    font-size: 23px;
+    max-width: 250px;
+
+}
+.serve-col p {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    padding: 0 60px;
 }
 
-@media (max-width: 1300px) {
-    .Home {
-        background-size: cover;
-        background-position: bottom center;
+/* Mobile queries */
+@media (min-width: 1200px) {
+    .home-bg-image {
+        position: absolute;
+        z-index: 0;
+        bottom: -100px;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+    .main-introduction {
+        padding-bottom: 100px;
+    }
+    .main-introduction p {
+        padding: 0 50px;
     }
 }
+@media (max-width: 1199px) {
+    .main-introduction {
+        padding-bottom: 75px;
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 2000px) {
+    .serve-col {
+        margin-right: 200px;
+    }
+}
+@media (max-width: 1600px) {
+    .serve-col {
+        margin-right: 400px;
+    }
+}
+@media (max-width: 991px) {
+    .serve-col {
+        margin-right: 0;
+    }
+    .home-serve {
+        background-image: url('./logo-transparent-tree-25.png');
+    }
+}
+@media (max-width: 767.98px) {
+    .main-introduction {
+        padding: 50px 0;
+    }
+    .main-introduction p {
+        margin: 0 30px;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.75);
+        font-size: 25px;
+    }
+    .home-intro-bts {
+        margin-top: 50px;
+    }
+    .mission-row {
+        padding: 25px;
+    }
+    .serve-col {
+        padding: 20px;
+    }
+    .serve-col p {
+        border-radius: 10px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, .75);
+    }
+}
+

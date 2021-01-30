@@ -1,18 +1,16 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './Help.css';
-import Header from '../../components/Header/Header.js';
-import Footer from '../../components/Footer/Footer.js';
 
 function Help()
 {
     return (
         <div className="Help">
             <Container fluid>
-                <Header />
+
                 <Row className="Help-main">
                     <div className="Help-banner">
-                        <h3><i>We are here to be with you throughout the whole process</i></h3>
+                        <h3><i>We are with you through the whole process</i></h3>
                     </div>
                     <div className="Help-steps">
                         <h4>1. Please fill out the form</h4>
@@ -35,13 +33,9 @@ function Help()
                         </p>
                     </div>
                     <div className="Help-emergency">
-                        <p>
-                            If you find yourself needing immediate assistance, you can call <br />
-                            directly: 321 - 501 - 1369
-                        </p>
+                        <span><strong>For immediate assistance, please call (321) 501 - 1369</strong></span>
                     </div>
                 </Row>
-                <Footer />
             </Container>
         </div>
     );

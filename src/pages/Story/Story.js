@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Story.css';
-import Header from '../../components/Header/Header.js';
-import Footer from '../../components/Footer/Footer.js';
 import michael from './michael.png';
 
 function Story()
@@ -10,8 +8,6 @@ function Story()
     return (
         <div className="Story">
             <Container fluid>
-                <Header />
-
                 <Row className="Story-introduction">
                     <Col md={12} className="introduction-main">
                         <Row  style={{ width: "70%", maxWidth: "1200px" }}>
@@ -19,7 +15,7 @@ function Story()
                                 <h1>Our Story</h1>
                                 <h2>The foundation was born from loss...</h2>
                                 <p>
-                                    Little Souls at Rest Foundation was created after we lost our son, Michael. I was at a routine appointment when the doctor told me that there was no heart beat. We delivered our beautiful baby boy, Michael, on July 27, 2018. The room went silent and we stared in amazement at our son. He was physically complete in every way. He only needed time to grow. Only 6 ounces, and yet he was a part of our family forever, and we were in love. After a few minutes of intense emotions, we were faced with the reality of making funeral arrangements. We tried to get as many of the burial arrangements done the night before, but we had so many questions. Little did we know, there was no streamlined process for babies like Michael. He was born before 23 weeks and weighed less than 350 grams. There were little to no burial resources for babies like him, and we were left to try to figure out how to make arrangements for him on our own.
+                                    Little Souls at Rest Foundation was created after we lost our son, Michael. I was at a routine appointment when the doctor told me that there was no heart beat. We delivered our beautiful baby boy, Michael, on July 27, 2018. The room went silent and we stared in amazement at our son. He was physically complete in every way. He only needed time to grow. Only 6 ounces, and yet he was a part of our family forever, and we were in love. After a few minutes of intense emotions, we were faced with the reality of making funeral arrangements. We tried to get as many of the burial arrangements done the night before, but we had so many questions. Little did we know, there was no streamlined process for babies like Michael. He was born before 20 weeks and weighed less than 350 grams. There were little to no burial resources for babies like him, and we were left to try to figure out how to make arrangements for him on our own.
                                 </p>
                             </Col>
                         </Row>
@@ -43,9 +39,6 @@ function Story()
                     <Col md={12} className="Story-col">
                         <Row style={{ width: "90%" }}>
                             <Col md={{ span: 8, offset: 2 }} className="Story-col-details">
-                                <span>
-                                    Let us help you find a resting place for your precious little soul in a small plot of land that is devoted to babies
-                                </span>
                                 <br />
                                 <p>
                                     We buried Michael the following Tuesday, near the most beautiful tree, and next to my friend's son. It was truly a gift, offered through many wonderful people.
@@ -65,8 +58,6 @@ function Story()
                         <h1>This is Little Souls at Rest Foundation</h1>
                     </Col>
                 </Row>
-
-                <Footer />
             </Container>
         </div>
     );

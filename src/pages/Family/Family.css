@@ -3,7 +3,9 @@
 }
 
 .Family-main {
-    height: 700px;
+    display: flex-grow;
+    height: 900px;
+    min-height: 200px;
     align-items: center;
     justify-content: center;
 }
