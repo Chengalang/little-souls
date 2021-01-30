@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import './Home.css';
 import homeBackground from './home-background.png';
-import logoBackground from './logo-transparent-tree.png';
 
 function Home()
 {

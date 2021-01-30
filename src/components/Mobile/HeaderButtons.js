@@ -1,10 +1,7 @@
 import React from 'react';
 import {
-    Button,
     Row,
     Col,
-    Navbar,
-    Nav,
     Container
 } from 'react-bootstrap';
 import './HeaderButtons.css';
