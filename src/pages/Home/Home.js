@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { ButtonGroup, Button, Container, Row, Col } from 'react-bootstrap';
 import './Home.css';
 import homeBackground from './home-background.png';
 
@@ -16,15 +16,17 @@ function Home()
                                 We are here to provide <i>immediate</i> burial needs to mothers and families suffering a loss of a baby up to 20 weeks of pregnancy
                             </p>
                             <div className="home-intro-bts">
-                                <Button variant="primary" href="/our-story">Our Story</Button>
-                                <Button
-                                    variant="info"
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLSf4Om_lJdWOFzVVLGQWPv6A14UfMt_WSKzF_rmZuYG8M0lhoA/viewform"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Get Help
-                                </Button>
+                                <ButtonGroup>
+                                    <Button variant="primary" href="/our-story">Our Story</Button>
+                                    <Button
+                                        variant="info"
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSf4Om_lJdWOFzVVLGQWPv6A14UfMt_WSKzF_rmZuYG8M0lhoA/viewform"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Get Help
+                                    </Button>
+                                </ButtonGroup>
                             </div>
                         </Col>
                     </Row>
