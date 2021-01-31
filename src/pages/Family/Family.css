@@ -1,11 +1,12 @@
-.Family {
+.family {
 
 }
 
-.Family-main {
+.family-main {
     display: flex-grow;
     height: 900px;
     min-height: 200px;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }

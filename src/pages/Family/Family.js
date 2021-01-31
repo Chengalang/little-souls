@@ -5,9 +5,9 @@ import './Family.css';
 function Family()
 {
     return (
-        <div className="Family">
+        <div className="family">
             <Container fluid>
-                <Row className="Family-main">
+                <Row className="family-main">
                     <h1>Future place for Little Souls family</h1>
                 </Row>
             </Container>
