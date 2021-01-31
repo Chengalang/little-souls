@@ -1,65 +1,86 @@
-.About {
-    display: flex;
-    justify-content: center;
+.about {
+    font-family: Calibri;
 }
 
-.About h1 {
+.about-banner {
     text-align: center;
+    padding: 15px;
+    margin: 20px 0;
     color: #707070;
-    padding: 40px 0 70px;
 }
-.About h4 {
+.about h4 {
     color: #7A8F3A;
     font-weight: bold;
 }
-.About span {
+.about span {
     font-size: 18px;
 }
-
-.About img {
+.about img {
     /*box-shadow: 0 10px 6px -6px #777;*/
     margin-bottom: 10px;
 }
 
 /* Team - first row */
-.About-team-one-main {
-    display: flex;
-    justify-content: center;
-}
-.About-team-one {
-    max-width: 1200px;
-    margin-bottom: 70px;
-    /*background-color: #C100EB;*/
-}
-.About-team-one .col-md {
-    width: 250px;
+.team-section-1 {
+    margin-bottom: 30px;
 }
 
 /* Team - second row */
-.About-team-two-main {
-    display: flex;
-    justify-content: center;
-}
-.About-team-two {
-    max-width: 1000px;
-    justify-content: center;
-    /*background-color: #4C0CF6;*/
-}
-.About-team-two .col-md {
-    width: 290px;
+.team-section-2 {
+    margin-bottom: 20px;
 }
 
 /* Statement */
-.About-statement {
+.about-message {
     height: 280px;
     margin: 70px 0 55px;
     align-items: center;
     justify-content: center;
     background-color: #FAF8F5;
 }
-.Statement-body {
-    width: 1111px;
-    text-align: center;
-    color: #7A8F3A;
-    font-size: 25px;
+
+@media (max-width: 575.98px) {
+    .team-row-1 .col-6 {
+
+    }
+    img#jenaV {
+        width: 0.5;
+        height: auto;
+    }
+    img#chrisI {
+        width: auto;
+        height: auto;
+    }
+    img#cathyI {
+        width: auto;
+        height: auto;
+    }
+    img#loriA {
+        width: auto;
+        height: auto;
+    }
+    img#paigeE {
+        width: auto;
+        height: auto;
+    }
+    img#lauraR {
+        width: auto;
+        height: auto;
+    }
+    img#alfredV {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .team-row-2 {
+        padding-left: 25px
+    }
+}
+
+@media (max-width: 991.98px) {
+    .last-member {
+        padding-top: 30px;
+    }
 }

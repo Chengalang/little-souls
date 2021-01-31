@@ -41,6 +41,14 @@ section {
     font-size: 30px;
     letter-spacing: 1px;
 }
+.main-introduction .btn-primary {
+    background-color: #6AA8FC;
+    border-color: #6AA8FC;
+}
+.main-introduction .btn-info {
+    background-color: #3787FF;
+    border-color: #3787FF;
+}
 
 /* Our Mission */
 .home-mission-statement {

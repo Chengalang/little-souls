@@ -17,70 +17,76 @@ import paigeEng from './Paige_Engle.png';
 function About()
 {
     return (
-        <div className="About">
-            <Container fluid>
+        <div className="about">
 
+            <section className="about-banner">
+                <Container fluid>
+                    <h1>Meet the Team</h1>
+                </Container>
+            </section>
 
-                <h1>Meet the Team</h1>
+            <section className="team-section-1">
+                <Container>
+                    <Row className="team-row-1">
+                        <Col xs={6} lg={3}>
+                            <img src={jenaVoz} id="jenaV" alt="Jena Vozzella" />
+                            <h4>Jena Vozzella</h4>
+                            <span>Founder and President</span>
+                        </Col>
+                        <Col xs={6} lg={3}>
+                            <img src={chrisInm} id="chrisI" alt="Chris Inman" />
+                            <h4>Chris Inman</h4>
+                            <span>Vice President</span>
+                        </Col>
+                        <Col xs={6} lg={3}>
+                            <img src={cathyInm} id="cathyI" alt="Cathy Inman" />
+                            <h4>Cathy Inman</h4>
+                            <span>Secretary</span>
+                        </Col>
+                        <Col xs={6} lg={3}>
+                            <img src={loriArm} id="loriA" alt="Lori Armstrong" />
+                            <h4>Lori Armstrong</h4>
+                            <span>Director of Social Affairs</span>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
 
-                <Row>
-                    <Col md={12} className="About-team-one-main">
-                        <Row className="About-team-one">
-                            <Col md sm={6} xs={6}>
-                                <img src={jenaVoz} alt="Jena Vozzella" />
-                                <h4>Jena Vozzella</h4>
-                                <span>Founder and President</span>
-                            </Col>
-                            <Col md sm={6} xs={6}>
-                                <img src={chrisInm} alt="Chris Inman" />
-                                <h4>Chris Inman</h4>
-                                <span>Vice President</span>
-                            </Col>
-                            <Col md sm={6} xs={6}>
-                                <img src={cathyInm} alt="Cathy Inman" />
-                                <h4>Cathy Inman</h4>
-                                <span>Secretary</span>
-                            </Col>
-                            <Col md sm={6} xs={6}>
-                                <img src={loriArm} alt="Lori Armstrong" />
-                                <h4>Lori Armstrong</h4>
-                                <span>Director of Social Affairs</span>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+            <section className="team-section-2">
+                <Container>
+                    <Row className="team-row-2">
+                        <Col xs={6} lg={4}>
+                            <img src={paigeEng} id="paigeE" alt="Paige Engle" />
+                            <h4>Paige Engle</h4>
+                            <span>Board Member</span>
+                        </Col>
+                        <Col xs={6} lg={4}>
+                            <img src={lauraRic} id="lauraR" alt="Laura Ricketts" />
+                            <h4>Laura Ricketts</h4>
+                            <span>Board Member</span>
+                        </Col>
+                        <Col
+                            xs={{ span: 6, offset: 3}}
+                            lg={{ span: 4, offset: 0 }}
+                            className="last-member"
+                        >
+                            <img src={alfredVoz} id="alfredV" alt="Alfred Vozzella" />
+                            <h4>Alfred Vozzella</h4>
+                            <span>Board Member</span>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
 
-                <Row>
-                    <Col md={12} className="About-team-two-main">
-                        <Row className="About-team-two">
-                            <Col md sm={6} xs={6}>
-                                <img src={lauraRic} alt="Laura Ricketts" />
-                                <h4>Laura Ricketts</h4>
-                                <span>Board Member</span>
-                            </Col>
-                            <Col md sm={6} xs={6}>
-                                <img src={alfredVoz} alt="Alfred Vozzella" />
-                                <h4>Alfred Vozzella</h4>
-                                <span>Board Member</span>
-                            </Col>
-                            <Col md sm={6} xs={6}>
-                                <img src={paigeEng} alt="Paige Engle" />
-                                <h4>Paige Engle</h4>
-                                <span>Board Member</span>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
-
-                <Row className="About-statement">
-                    <div className="Statement-body">
+            <section className="about-message">
+                <Container>
+                    <Row>
                         <p>
-                            Every Family should have the right to bury their child and it should not cause Heartache - in the most difficult times to make those arrangements. We realize that very few families would find the same resources that were made available to us. We wanted to provide the same level of support for others and could only do so by creating the Little Souls at Rest Foundation.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum ac ipsum id viverra. Mauris tincidunt feugiat libero at porttitor. Aenean laoreet metus eget nisi elementum finibus. Nullam consectetur, mi commodo ornare maximus, nisl nisi fermentum urna, in pellentesque eros nulla ut dui. Maecenas ultrices posuere diam quis mattis. Duis vitae fermentum enim. Donec eleifend leo lectus, in porttitor ex laoreet vel. Pellentesque rhoncus ante a venenatis consectetur
                         </p>
-                    </div>
-                </Row>
-
-            </Container>
+                    </Row>
+                </Container>
+            </section>
         </div>
     );
 }
