@@ -1,108 +1,93 @@
-.Story {
-
+.story {
+    font-family: Calibri;
+}
+section {
+    clear: both;
 }
 
 /* Introduction */
-.Story-introduction {
-    height: 625px;
-    background-image: url('./story-background.png');
-    background-size: 2500px 1502px;
-    background-position: bottom -150px left;
-    background-repeat: no-repeat;
+.story-hero {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
 }
-.introduction-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.story-bg-image {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+.story-introduction {
+    min-height: 625px;
     text-align: center;
+    align-items: center;
 }
-.introduction-main-header {
-
+.story-introduction h1 {
+    margin: 30px 0;
 }
-.introduction-main-header h1 {
-    padding: 10px 10px 50px 10px;
-    color: #707070;
-    /*background-color: #0CB6F6;*/
-}
-.introduction-main-header h2 {
-    padding: 0px 150px 0px 0px;
+.story-introduction h2 {
+    margin: 30px 0;
+    padding-right: 150px;
     color: #707070;
     font-size: 40px;
     font-style: italic;
     font-family: Brush Script MT;
-    /*background-color: #C100EB;*/
 }
-.introduction-main-header p {
-    padding: 30px 175px 0px 175px;
-    /*color: #606060;*/
-    font-size: 18px;
+.story-introduction p {
+    padding: 30px 50px;
+    font-size: 22px;
     letter-spacing: 0.5px;
     line-height: 1.8;
-    /*background-color: #F60C5B;*/
 }
 
-/* Statemenet */
-.Story-statement {
-    height: 270px;
+/* Banner 1 */
+.story-banner-1 {
+    min-height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: #FAF8F5;
 }
-.Story-statement-details {
-    display: flex;
+.banner-1-row {
     align-items: center;
-    text-align: center;
-    /*background-color: #C100EB;*/
 }
-.Story-statement-details p {
-    font-size: 18px;
+.banner-1-col-1 img {
+    border-radius: 10px;
+}
+.banner-1-col-2 p {
+    padding: 0 30px;
+    font-size: 22px;
     letter-spacing: 0.5px;
     line-height: 1.8;
 }
-.Story-statement-details img {
-    border-radius: 30px;
-    margin-right: 50px;
-}
 
-/* Mission */
-.Story-mission {
-    height: 825px;
-    font-family: Calibri;
+/* Main Story */
+.story-main {
+    min-height: 825px;
+    display: flex;
+    align-items: center;
     text-align: center;
     background-image: url('./logo-transparent-tree.png');
     background-size: 1500px 1500px;
     background-position: bottom -355px center;
     background-repeat: no-repeat;
 }
-.Story-col {
-    display: flex;
-    justify-content: center;
-    /*background-color: #0CB6F6;*/
-}
-.Story-col-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0.85;
-    /*background-color: #5B0CF6;*/
-}
-.Story-col-details span {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 50px;
+.main-row p {
+    font-size: 26px;
     letter-spacing: 0.5px;
-}
-.Story-col-details p {
-    padding: 0 75px 0 75px;
-    font-size: 25px;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
-/* Bottom Banner */
-.Story-banner {
+/* Banner 2 */
+.story-banner-2 {
     height: 270px;
     margin-bottom: 55px;
     text-align: center;
@@ -112,6 +97,62 @@
     background-color: #FAF8F5;
     color: #606060;
 }
-.Story-banner h1 {
+.story-banner-2 h1 {
     font-style: italic;
+}
+
+@media (max-width: 767.98px) {
+    .story-introduction {
+        min-height: 625px;
+    }
+    .story-introduction h1 {
+        margin: 20px 0;
+    }
+    .story-introduction h2 {
+        margin: 30px 0;
+        padding-right: 0;
+    }
+    .story-introduction p {
+        padding: 15px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
+    .banner-1-col-1 img {
+        max-width: 120px;
+        height: auto;
+    }
+    .banner-1-col-2 p {
+        padding: 0;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        line-height: 1.5;
+    }
+    .story-main {
+        min-height: 700px;
+    }
+    .main-row p {
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        line-height: 1.6;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (min-width: 1200px) {
+    .story-bg-image {
+        position: absolute;
+        z-index: 0;
+        bottom: -200px;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
 }

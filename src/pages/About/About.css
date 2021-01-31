@@ -40,36 +40,48 @@
 }
 
 @media (max-width: 575.98px) {
-    .team-row-1 .col-6 {
-
+    .team-section-1 {
+        padding-left: 35px;
+    }
+    .team-section-2 {
+        padding-left: 35px;
     }
     img#jenaV {
-        width: 0.5;
-        height: auto;
+        width: auto;
+        height: 180px;
     }
     img#chrisI {
-        width: auto;
+        width: 150px;
         height: auto;
     }
     img#cathyI {
         width: auto;
-        height: auto;
+        height: 140px;
     }
     img#loriA {
-        width: auto;
+        width: 150px;
         height: auto;
     }
     img#paigeE {
-        width: auto;
+        width: 150px;
         height: auto;
     }
     img#lauraR {
-        width: auto;
+        width: 150px;
         height: auto;
     }
     img#alfredV {
-        width: auto;
+        width: 150px;
         height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .team-section-1 {
+        padding-left: 0;
+    }
+    .team-section-2 {
+        padding-left: 0;
     }
 }
 

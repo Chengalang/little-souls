@@ -82,7 +82,7 @@ function About()
                 <Container>
                     <Row>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum ac ipsum id viverra. Mauris tincidunt feugiat libero at porttitor. Aenean laoreet metus eget nisi elementum finibus. Nullam consectetur, mi commodo ornare maximus, nisl nisi fermentum urna, in pellentesque eros nulla ut dui. Maecenas ultrices posuere diam quis mattis. Duis vitae fermentum enim. Donec eleifend leo lectus, in porttitor ex laoreet vel. Pellentesque rhoncus ante a venenatis consectetur
+
                         </p>
                     </Row>
                 </Container>
