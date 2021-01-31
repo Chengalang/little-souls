@@ -52,7 +52,14 @@ function Help()
             </section>
 
             <div className="help-emergency">
-                <span><strong>For immediate assistance, please call (321) 501 - 1369</strong></span>
+                <span>To refer a family or yourself to Little Souls at Rest, please complete the referral form
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf4Om_lJdWOFzVVLGQWPv6A14UfMt_WSKzF_rmZuYG8M0lhoA/viewform"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    > here
+                    </a>
+                </span>
             </div>
         </div>
     );
