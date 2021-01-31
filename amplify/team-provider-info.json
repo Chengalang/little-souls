@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-littlesouls-dev-201818-authRole",
+      "UnauthRoleArn": "arn:aws:iam::168031269322:role/amplify-littlesouls-dev-201818-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::168031269322:role/amplify-littlesouls-dev-201818-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-littlesouls-dev-201818-deployment",
+      "UnauthRoleName": "amplify-littlesouls-dev-201818-unauthRole",
+      "StackName": "amplify-littlesouls-dev-201818",
+      "StackId": "arn:aws:cloudformation:us-east-2:168031269322:stack/amplify-littlesouls-dev-201818/34ecc890-6362-11eb-8173-064a3d3b91ae",
+      "AmplifyAppId": "d1fc80bwcic332"
+    }
+  }
+}
