@@ -125,6 +125,23 @@ section {
     font-style: italic;
 }
 
+@media (max-width: 575.98px) {
+   .story-main .container-fluid {
+        padding: 20px 5px;
+    }
+
+    .main-story h1 {
+        margin-bottom: 0.8em;
+    }
+
+    .main-story p {
+        margin-top: 0;
+        letter-spacing: 0.4px;
+        line-height: 1.3;
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 767.98px) {
     .story-introduction {
         min-height: 625px;

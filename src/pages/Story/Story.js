@@ -115,7 +115,7 @@ function Story()
                 <Container>
                     <Row>
                         <Col>
-                            <h2>This is what the foundation does</h2> <br /><br />
+                            <h2>This is what the foundation does</h2> <br />
                             <h1>This is Little Souls at Rest Foundation</h1>
                         </Col>
                     </Row>
