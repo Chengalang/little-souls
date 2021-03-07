@@ -71,7 +71,6 @@ section {
 
 /* Main Story */
 .story-main {
-    min-height: 825px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -80,10 +79,35 @@ section {
     background-position: bottom -355px center;
     background-repeat: no-repeat;
 }
-.main-row p {
-    font-size: 26px;
+
+.story-main .container-fluid {
+    padding: 50px 50px;
+}
+
+.main-story-container {
+
+}
+
+.main-story {
+    margin: 0 auto;
+
+    columns: 30em;
+}
+
+.main-story h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    column-span: all;
+    font-weight: 900;
+}
+
+.main-story p {
+    margin-top: 0;
+    margin-right: 20px;
+    margin-left: 20px;
     letter-spacing: 0.5px;
     line-height: 1.8;
+    font-size: 1.2rem;
 }
 
 /* Banner 2 */
@@ -154,5 +178,8 @@ section {
         width: 100%;
         height: auto;
         min-height: 100%;
+    }
+    .story-main .container-fluid {
+        padding: 100px 200px;
     }
 }

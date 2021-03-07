@@ -8,7 +8,7 @@ function Home()
     return (
         <div className="home">
             <section className="home-hero" style={{ backgroundImage: "url('./home-background.png')" }}>
-                <img class="home-bg-image" alt="Home background" src={homeBackground} />
+                <img className="home-bg-image" alt="Home background" src={homeBackground} />
                 <Container fluid>
                     <Row className="home-introduction">
                         <Col md={{ span: 4, offset: 8 }} className="main-introduction">

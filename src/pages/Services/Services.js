@@ -20,7 +20,7 @@ function Services()
 
             <section className="services-hero">
                 <div className="services-introduction">
-                    <img class="services-bg-image" alt="Services Background" src={servicesBackground} />
+                    <img className="services-bg-image" alt="Services Background" src={servicesBackground} />
                 </div>
             </section>
 
