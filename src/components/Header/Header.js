@@ -36,12 +36,12 @@ function Header()
                                         variant="default"
                                         className="header-bt"
                                         style={{
-                                            color: "#FFFFFF",
-                                            backgroundColor: "#A4B173",
+                                            color: "#BC986A",
+                                            backgroundColor: "#FBEEC1",
                                             borderStyle: "solid",
-                                            borderWidth: "3px",
-                                            borderColor: "#939C72",
-                                            borderRadius: "15px",
+                                            borderWidth: "2px",
+                                            borderColor: "#DAAD86",
+                                            borderRadius: "10px",
                                             paddingTop: "8px",
                                         }}
                                     >DONATIONS</Button>

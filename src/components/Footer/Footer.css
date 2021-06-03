@@ -4,8 +4,7 @@
     max-height: 300px;
     display: flex;
     align-items: center;
-
-    background-color: rgba(92, 219, 149, 0.75);
+    background-color: rgba(101, 157, 189, 0.75);
 }
 
 .footer .container {
@@ -36,7 +35,7 @@ ul {
     justify-content: center;
     border-style: solid;
     border-width: 5px;
-    border-color: #05386B;
+    border-color: rgba(5, 56, 107, 0.75);
 }
 
 .social-col {
